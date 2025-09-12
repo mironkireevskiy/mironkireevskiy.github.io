@@ -1,0 +1,5 @@
+User-agent: *
+Allow: *
+Disallow: *?page=
+Host: https://mironkireevskiy.github.io
+Sitemap: https://mironkireevskiy.github.io/sitemap.xml

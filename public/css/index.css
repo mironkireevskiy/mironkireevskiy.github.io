@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'Open-Sans-Regular';
+	src: local('Open-Sans-Regular'), url('resources/fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Open-Sans-Bold';
+	src: local('Open-Sans-Bold'), url('resources/fonts/Open_Sans/OpenSans-Bold.ttf') format('truetype');
+}
+
+::selection {background-color: #e3caa4;}
+
+body {background-color: #e8d8c0;}
+body * {font-family: 'Open-Sans-Regular';}
+
+/* Begin: Prime */
+#prime main {width: 100%; max-width: 900px; padding: .5em; margin: 0 auto;  min-height: 100%;}
+#prime main > h1 {font-size: 1.5em; width: 100%; margin-bottom: .5em;}
+
+#prime .stories {}
+#prime .stories hr {border-top: 1px solid #666; margin: 1.25em 0 1em;}
+
+#prime .story {}
+#prime .story > h2 {font-size: 1.25em; margin-bottom: .5em;}
+#prime .story > span {display: block;}
+#prime .story > p {margin-top: .5em;}
+#prime .story > p > a {display: inline-block; color: brown; padding-left: .5em;}
+
+#prime .pagination {display: flex; flex-flow: row nowrap; justify-content: center; height: 40px; max-height: 40px; margin: 2em 0;}
+#prime .pagination > button {border-radius: .25em; width: 40px; max-width: 40px; text-align: center; line-height: 40px; margin-right: .25em; background-color: #e3caa4;}
+#prime .pagination > *:last-child {margin-right: 0;}
+#prime .pagination > span {line-height: 40px; margin: 0 .5em; background-color: #e8d8c0;}
+/* End: Prime */
+
+/* Begin: Story */
+#story .breadcrumb {display: flex; flex-flow: row nowrap; align-items: center; height: 40px; max-height: 40px; line-height: 40px; margin-bottom: 1em;}
+#story .breadcrumb .separator {margin: 1em .35em 1em;}
+#story article {width: 100%; max-width: 900px; padding: .5em; margin: 0 auto;  min-height: 100%;}
+#story article h1 {font-size: 1.75em; padding: .25em 0 .5em; text-align: center;}
+#story article p {margin-bottom: 1em;}
+#story article p:last-child {margin-bottom: 0;}
+#story article .separator {display: block; text-align: center; margin: 1.5em 0 1em;}
+
+@media (min-width: 1200px) {
+	
+}
